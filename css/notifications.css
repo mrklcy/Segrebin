@@ -1,0 +1,628 @@
+/* SEGREBIN Notification System Styles */
+/* This file contains styles for real-time notifications from ultrasonic sensors */
+
+/* Notification Container */
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    max-width: 400px;
+    pointer-events: none;
+}
+
+/* Individual Notifications */
+.notification {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+    padding: 16px;
+    border-left: 4px solid #3b82f6;
+    pointer-events: auto;
+    animation: slideInRight 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.notification::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+    animation: progressBar 5s linear;
+}
+
+/* Notification Types */
+.notification-critical {
+    border-left-color: #ef4444;
+    background: linear-gradient(135deg, #fef2f2, #ffffff);
+}
+
+.notification-critical::before {
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+
+.notification-warning {
+    border-left-color: #f59e0b;
+    background: linear-gradient(135deg, #fffbeb, #ffffff);
+}
+
+.notification-warning::before {
+    background: linear-gradient(90deg, #f59e0b, #d97706);
+}
+
+.notification-success {
+    border-left-color: #10b981;
+    background: linear-gradient(135deg, #f0fdf4, #ffffff);
+}
+
+.notification-success::before {
+    background: linear-gradient(90deg, #10b981, #059669);
+}
+
+.notification-info {
+    border-left-color: #3b82f6;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+.notification-info::before {
+    background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+}
+
+/* Notification Content */
+.notification-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.notification-content i {
+    font-size: 18px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.notification-critical .notification-content i {
+    color: #ef4444;
+}
+
+.notification-warning .notification-content i {
+    color: #f59e0b;
+}
+
+.notification-success .notification-content i {
+    color: #10b981;
+}
+
+.notification-info .notification-content i {
+    color: #3b82f6;
+}
+
+.notification-content span {
+    color: #1f2937;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* Close Button */
+.notification-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: #9ca3af;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.notification-close:hover {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+/* Notification Animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes progressBar {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+/* Notification Exit Animation */
+.notification.removing {
+    animation: slideOutRight 0.3s ease-in forwards;
+}
+
+/* Hover Effects */
+.notification:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Responsive Design - Mobile First Approach */
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .notification-container {
+        max-width: 450px;
+    }
+    
+    .notification {
+        padding: 18px;
+        margin-bottom: 12px;
+    }
+    
+    .notification-content span {
+        font-size: 15px;
+    }
+}
+
+/* Desktop (992px - 1199px) */
+@media (max-width: 1199px) {
+    .notification-container {
+        max-width: 400px;
+    }
+}
+
+/* Tablet Landscape (768px - 991px) */
+@media (max-width: 991px) {
+    .notification-container {
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        max-width: none;
+    }
+    
+    .notification {
+        margin-bottom: 10px;
+        padding: 16px;
+    }
+    
+    .notification-content span {
+        font-size: 14px;
+    }
+    
+    .notification-actions {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .notification-action-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Tablet Portrait (481px - 767px) */
+@media (max-width: 767px) {
+    .notification-container {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
+    
+    .notification {
+        margin-bottom: 8px;
+        padding: 14px;
+    }
+    
+    .notification-content span {
+        font-size: 13px;
+    }
+    
+    .notification-content i {
+        font-size: 16px;
+    }
+    
+    .notification-close {
+        top: 6px;
+        right: 6px;
+        font-size: 16px;
+    }
+    
+    .notification-actions {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+/* Mobile Large (375px - 480px) */
+@media (max-width: 480px) {
+    .notification-container {
+        top: 8px;
+        right: 8px;
+        left: 8px;
+    }
+    
+    .notification {
+        margin-bottom: 6px;
+        padding: 12px;
+    }
+    
+    .notification-content span {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    
+    .notification-content i {
+        font-size: 15px;
+    }
+    
+    .notification-close {
+        top: 5px;
+        right: 5px;
+        font-size: 15px;
+        padding: 3px;
+    }
+    
+    .notification-actions {
+        margin-top: 8px;
+        padding-top: 8px;
+        gap: 4px;
+    }
+    
+    .notification-action-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+}
+
+/* Mobile Small (320px - 374px) */
+@media (max-width: 374px) {
+    .notification-container {
+        top: 5px;
+        right: 5px;
+        left: 5px;
+    }
+    
+    .notification {
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    
+    .notification-content span {
+        font-size: 11px;
+    }
+    
+    .notification-content i {
+        font-size: 14px;
+    }
+    
+    .notification-close {
+        top: 4px;
+        right: 4px;
+        font-size: 14px;
+        padding: 2px;
+    }
+    
+    .notification-action-btn {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+}
+
+/* Landscape Orientation for Mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .notification-container {
+        top: 5px;
+        right: 5px;
+        left: 5px;
+    }
+    
+    .notification {
+        margin-bottom: 4px;
+        padding: 10px;
+    }
+    
+    .notification-content span {
+        font-size: 12px;
+    }
+    
+    .notification-content i {
+        font-size: 14px;
+    }
+    
+    .notification-actions {
+        margin-top: 6px;
+        padding-top: 6px;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .notification-close,
+    .notification-action-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    .notification {
+        cursor: pointer;
+    }
+    
+    .notification:hover {
+        transform: none;
+    }
+}
+
+/* High DPI Displays (Retina, etc.) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .notification {
+        border-width: 1px;
+    }
+    
+    .notification-close {
+        border-width: 1px;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .notification {
+        background: #1f2937;
+        color: #f9fafb;
+        border-color: #4b5563;
+    }
+    
+    .notification-content span {
+        color: #f9fafb;
+    }
+    
+    .notification-close {
+        color: #6b7280;
+    }
+    
+    .notification-close:hover {
+        background: #374151;
+        color: #9ca3af;
+    }
+    
+    .notification-critical {
+        background: linear-gradient(135deg, #450a0a, #1f2937);
+    }
+    
+    .notification-warning {
+        background: linear-gradient(135deg, #451a03, #1f2937);
+    }
+    
+    .notification-success {
+        background: linear-gradient(135deg, #064e3b, #1f2937);
+    }
+    
+    .notification-info {
+        background: linear-gradient(135deg, #1e3a8a, #1f2937);
+    }
+}
+
+/* Notification Stacking */
+.notification-container .notification:nth-child(1) {
+    z-index: 9999;
+}
+
+.notification-container .notification:nth-child(2) {
+    z-index: 9998;
+}
+
+.notification-container .notification:nth-child(3) {
+    z-index: 9997;
+}
+
+/* Notification Priority Indicators */
+.notification.priority-high {
+    border-left-width: 6px;
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.3);
+}
+
+.notification.priority-medium {
+    border-left-width: 5px;
+    box-shadow: 0 5px 15px rgba(245, 158, 11, 0.3);
+}
+
+.notification.priority-low {
+    border-left-width: 4px;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Notification Groups */
+.notification-group {
+    margin-bottom: 20px;
+}
+
+.notification-group-title {
+    font-size: 12px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Notification Actions */
+.notification-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.notification-action-btn {
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.notification-action-btn:hover {
+    background: #e5e7eb;
+    border-color: #9ca3af;
+}
+
+.notification-action-btn.primary {
+    background: #3b82f6;
+    border-color: #2563eb;
+    color: white;
+}
+
+.notification-action-btn.primary:hover {
+    background: #2563eb;
+    border-color: #1d4ed8;
+}
+
+.notification-action-btn.danger {
+    background: #ef4444;
+    border-color: #dc2626;
+    color: white;
+}
+
+.notification-action-btn.danger:hover {
+    background: #dc2626;
+    border-color: #b91c1c;
+}
+
+/* Notification Sound Indicator */
+.notification-sound-indicator {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+    }
+    
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+/* Notification Queue Management */
+.notification-queue-full .notification {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+/* Accessibility Improvements */
+.notification:focus-within {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+.notification-close:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .notification {
+        border-width: 3px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    .notification-content span {
+        font-weight: 600;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .notification {
+        animation: none;
+    }
+    
+    .notification::before {
+        animation: none;
+    }
+    
+    .notification:hover {
+        transform: none;
+    }
+}
+
+/* Bin Error Message */
+.bin-error-message {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.bin-error-message p {
+    margin: 0 0 8px 0;
+    color: #dc2626;
+    font-size: 14px;
+}
+
+.bin-error-message p:last-child {
+    margin-bottom: 0;
+    color: #6b7280;
+    font-size: 12px;
+}

@@ -1,0 +1,158 @@
+[2025-06-25 04:56:05] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => attaacta@gmail.com
+    [password] => attaxttt
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:00:07] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 05:09:04] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 05:09:08] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:11:13] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 05:11:16] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [website] => 
+)
+
+[2025-06-25 05:11:51] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 05:11:56] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:19:19] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:20:32] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 05:20:37] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:20:42] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:20:47] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => " = ' or '
+    [password] => " = ' or '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:29:18] IP: 212.102.51.58 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0 | Data: Array
+(
+)
+
+[2025-06-25 05:29:26] IP: 212.102.51.58 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0 | Data: Array
+(
+    [identifier] => '
+    [password] => '
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 05:32:54] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+    [identifier] => ads
+    [password] => luigi
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 06:20:34] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-25 06:30:11] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-25 06:35:38] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 | Data: Array
+(
+    [identifier] => admin
+    [password] => adminada
+    [remember] => on
+    [website] => 
+)
+
+[2025-06-25 07:30:17] IP: 2001:fd8:b42a:25f5:89c6:a6a1:8da8:7e12 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0 | Data: Array
+(
+)
+
+[2025-06-26 04:02:26] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-26 04:02:27] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-26 04:02:29] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-26 04:02:30] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-26 04:02:31] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-06-26 04:02:33] IP: 138.199.21.209 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 | Data: Array
+(
+)
+
+[2025-08-02 03:17:12] IP: 180.191.21.23 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0 | Data: Array
+(
+)
+
+[2025-08-02 03:17:25] IP: 180.191.21.23 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0 | Data: Array
+(
+    [identifier] => yhuryy
+    [password] => soa
+    [website] => 
+)
+
